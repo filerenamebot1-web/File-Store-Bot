@@ -4,7 +4,7 @@ from logging.handlers import RotatingFileHandler
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '5010'
-OWNER_ID = 6834180565
+OWNER_ID = 6860249430
 
 MSG_EFFECT = 5046509860389126442
 
@@ -14,24 +14,24 @@ SHORT_TUT = "https://t.me/How_To_Download_ATK/2"
 
 # Bot Configuration
 SESSION = "zenitsu"
-TOKEN = "7976"
-API_ID = ""
-API_HASH = ""
+TOKEN = "8396584534:AAHmfn-suTZ-GwjmyDd0DYZxLFIVA-qJNKI"
+API_ID = "22802977"
+API_HASH = "32e1f0a923912d4528bb3273b89de50f"
 WORKERS = 5
 
-DB_URI = "mongodb"
+DB_URI = "mongodb+srv://kakashibot8:zenitsuchan@cluster0.h0hl0gc.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = "zenitsu"
 
 FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =    # just put channel id dont add "-1002953776171"
+DB_CHANNEL =  # just put channel id dont add "-1002455470716"
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002953776171": {"name": "Primary DB", "is_primary": True, "is_active": True},
 #     "-1002953776171": {"name": "Secondary DB", "is_primary": False, "is_active": True}
 # }
 # Auto Delete Timer (seconds)
-AUTO_DEL = 300
+AUTO_DEL = 1800
 # Admin IDs
 ADMINS = [6497757690, 6103092779]
 # Bot Settings
