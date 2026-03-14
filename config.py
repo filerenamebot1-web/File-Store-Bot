@@ -24,7 +24,7 @@ DB_NAME = "zenitsu"
 
 FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =  # just put channel id dont add "-1002455470716"
+DB_CHANNEL = -1002455470716 # just put channel id dont add "-1002455470716"
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002953776171": {"name": "Primary DB", "is_primary": True, "is_active": True},
